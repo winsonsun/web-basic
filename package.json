@@ -1,0 +1,27 @@
+{
+  "name": "web-basic",
+  "version": "1.0.0",
+  "description": "start with npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env NODE_ENV=development node ./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/winsonsun/npm-start.git"
+  },  
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "lodash": "^4.17.4",
+    "rambda": "^0.5.5",
+    "async": "^2.2.0",
+    "path": "^0.12.7",
+    "fs": "^0.0.1-security",
+    "q": "^1.5.0",
+    "thunkify": "^2.1.2",
+    "co": "^4.6.0"
+  }
+}
